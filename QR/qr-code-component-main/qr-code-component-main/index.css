@@ -7,8 +7,10 @@
 #fondoLightGray {
 	background-color: hsl(212, 45%, 89%);
 	/* border: solid red; */
-	width: 375px;
-	height: 667px;
+	/* width: 375px;
+	height: 667px; */
+	width: 100vw;
+	height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
