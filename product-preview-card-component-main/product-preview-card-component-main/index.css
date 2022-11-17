@@ -5,8 +5,8 @@
 #fondoCream {
 	/* border: 3px solid red; */
 	background-color: hsl(30, 38%, 92%);
-	width: 375px;
-	height: 667px;
+	width: 100vw;
+	height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -31,21 +31,36 @@
 	font-size: 10px;
 	text-transform: uppercase;
 	letter-spacing: 7px;
+	padding: 15px;
+	margin-left: 10px;
 }
 #Gabrielle {
+	/* border: solid red; */
 	font-family: "Fraunces", serif;
 	font-weight: 700;
 	font-size: 26px;
+	width: 280px;
+	height: 61px;
+	margin-left: 25px;
+	margin-right: 40px;
+	margin-bottom: 25px;
 }
 #floral {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
 	font-size: 14px;
 	color: hsl(228, 12%, 48%);
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 35px;
+	/* word-spacing: 1px; */
+	line-height: 20px;
 }
 #precios {
 	display: flex;
 	align-items: center;
+	margin-left: 25px;
+	margin-bottom: 20px;
 }
 #ultimoPrecio {
 	/* border: solid blue; */
@@ -63,6 +78,7 @@
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
 	color: hsl(228, 12%, 48%);
+	margin-left: 25px;
 }
 #boton {
 	/* border: solid hsl(158, 36%, 37%); */
@@ -77,6 +93,7 @@
 	width: 296px;
 	height: 49px;
 	color: hsl(0, 0%, 100%);
+	margin-left: 25px;
 }
 #boton img {
 	padding-right: 11px;
